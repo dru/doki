@@ -1,4 +1,9 @@
 ActionController::Routing::Routes.draw do |map|
+  
+  map.resources :cards
+  
+  map.root :controller => "cards", :action => "show", :id => "Welcome"
+    
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:
