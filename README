@@ -1,4 +1,9 @@
-== Welcome to Rails
+== Welcome to Doki
 
 Not much at the moment yet.
 Wagn inspired wiki
+
+
+[[+test|Test]] or [[Wiki Page]]- Simple wiki link
+
+{{+age}} or {{Include Me}} - for transclusion link
