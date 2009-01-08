@@ -1,0 +1,8 @@
+<% form_for @card do |f| %>
+	<h1><%= @card.name %></h1>
+	<%= f.hidden_field :type, {:value => "Simple"} %>
+	<%= f.hidden_field :name %>
+	<%= f.text_area :body %>
+	<br/>
+	<%= f.submit %>
+<% end %>

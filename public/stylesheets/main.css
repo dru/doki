@@ -1,0 +1,14 @@
+a.wanted-card { 
+	color: #cccccc;
+	text-decoration: underline dashed 1px #aaa;
+}
+
+a.external-link { 
+	color: #979; 
+	background: url(/images/external_link.png) center right no-repeat;
+	padding-right: 13px !important;
+}
+
+a.email-link { 
+	color: #979 
+}

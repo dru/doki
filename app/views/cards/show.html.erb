@@ -1,0 +1,4 @@
+<h1><%= @card.name %> <span style="color:#cccccc;font-size: 14px;"><%= @card.type %></span> <%=  link_to "edit", edit_card_url(@card) %>
+</h1>
+
+<%= simple_format @card.render %>
